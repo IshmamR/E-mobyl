@@ -1,0 +1,95 @@
+html {
+  max-width: 100vw;
+  overflow-x: hidden; }
+
+body {
+  width: 100%;
+  font-family: 'Piazzolla', serif;
+  background: #FAFAFA;
+  overflow-x: hidden;
+  /*/ ____TABS____ /*/
+  /*================*/
+  /* not active */
+  /* active*/
+  /*===================*/
+  /*/ ___TABS END___ /*/
+  /* Product page */
+  /* __Product page END__ */
+  /*RESPONSIVE*/ }
+  body a {
+    text-decoration: none !important; }
+  body .top-sales a {
+    overflow: hidden; }
+  body .ts {
+    transition: 0.5s ease; }
+  body .ts:hover {
+    transform: scale(1.1); }
+  body .fa-star {
+    color: green; }
+  body button,
+  body .owl-2 button,
+  body .owl-4 button {
+    outline: none !important;
+    border: none; }
+  body .owl-2 button:hover,
+  body .owl-4 button:hover {
+    color: black !important; }
+  body .owl-prev, body .owl-next {
+    width: 25px;
+    height: 15vh;
+    position: absolute;
+    top: 25%;
+    display: block !important;
+    border: 0px solid black;
+    background-color: transparent !important; }
+  body .owl-prev span, body .owl-next span {
+    font-size: 40px; }
+  body .owl-prev {
+    left: -30px; }
+  body .owl-next {
+    right: -30px; }
+  body .owl-prev i, body .owl-next i {
+    transform: scale(2.6); }
+  body .owl-prev i:hover, body .owl-next i:hover {
+    color: #111;
+    outline: none !important; }
+  body .nav-tabs > .nav-link {
+    text-align: center;
+    transition: 0.1s;
+    border: 0.5px solid #DCDCDC;
+    border-bottom: 0px; }
+  body .nav-tabs .nav-link:not(.active) {
+    background-color: #FAFAFA;
+    color: #313131; }
+  body .nav-tabs > .nav-link.active {
+    background-color: #FFF;
+    color: #050505;
+    font-weight: 500; }
+  body .sp {
+    width: 190px; }
+  body .color {
+    cursor: pointer; }
+  body .qty button:focus {
+    box-shadow: none; }
+  body .qty .qty_input {
+    outline: none !important; }
+  @media only screen and (max-width: 1030px) {
+    body .sp {
+      width: 280px; } }
+  @media only screen and (max-width: 780px) {
+    body .sp {
+      width: 190px; } }
+  @media only screen and (max-width: 420px) {
+    body .sp {
+      width: 145px; } }
+  @media only screen and (max-width: 380px) {
+    body .sp {
+      width: 300px; } }
+  @media only screen and (max-width: 330px) {
+    body .sp {
+      width: 260px; } }
+  @media only screen and (max-width: 290px) {
+    body .sp {
+      width: 210px; } }
+
+/*# sourceMappingURL=style.css.map */
