@@ -154,11 +154,6 @@
 				</div>
 			</div>
 		</section>
-		<?php else: ?>
-			<div class="container border border-danger text-center bg-white shadow my-5">
-				<p class="h1 text-danger">This item does not exist :/</p>
-			</div>
-			<?php break; ?>
 		<?php endif ?>
 	<?php endforeach ?>
 
