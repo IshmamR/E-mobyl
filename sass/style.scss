@@ -1,0 +1,134 @@
+html {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+body {
+	width: 100%;
+	font-family: 'Piazzolla', serif;
+	background: #FAFAFA;
+	overflow-x: hidden;
+
+
+	a {
+		text-decoration: none !important;
+	}
+
+	.top-sales a {
+		overflow: hidden;
+	}
+	.ts {
+		transition: 0.5s ease;
+	}
+	.ts:hover {
+		transform: scale(1.1);
+	}
+
+	.fa-star {
+		color: green;
+	}
+
+	button,
+	.owl-2 button,
+	.owl-4 button {
+		outline: none !important;
+		border: none;
+	}
+	.owl-2 button:hover,
+	.owl-4 button:hover {
+		color: black !important;
+	}
+	.owl-prev, .owl-next {
+		width: 25px;
+		height: 15vh;
+		position: absolute;
+		top: 25%;
+		display: block !important;
+		border:0px solid black;
+		background-color: transparent !important;
+	}
+	.owl-prev span, .owl-next span {font-size: 40px;}
+	.owl-prev {left: -30px;}
+	.owl-next {right: -30px;}
+	.owl-prev i, .owl-next i {transform : scale(2.6);}
+	.owl-prev i:hover, .owl-next i:hover {
+		color: #111;
+		outline: none !important;
+	}
+
+
+	/*/ ____TABS____ /*/
+	/*================*/
+	/* not active */
+	.nav-tabs > .nav-link {
+		text-align: center;
+		transition: 0.1s;
+		border: 0.5px solid #DCDCDC;
+		border-bottom: 0px;
+	}
+	.nav-tabs .nav-link:not(.active) {
+		background-color: #FAFAFA;
+		color: #313131;
+	}
+	/* active*/
+	.nav-tabs > .nav-link.active {
+		background-color: #FFF;
+		color: #050505;
+		font-weight: 500;
+	}
+	/*===================*/
+	/*/ ___TABS END___ /*/
+
+	.sp {
+		width: 190px;
+	}
+
+
+	/* Product page */
+	.color {
+		cursor: pointer;
+	}
+	.qty {
+		button:focus {
+			box-shadow: none;
+		}
+		.qty_input {
+			outline: none !important;
+		}	
+	}
+	/* __Product page END__ */
+
+	/*RESPONSIVE*/
+
+	@media only screen and (max-width: 1030px) {
+		.sp {
+			width: 280px;
+		}
+	}
+	@media only screen and (max-width: 780px) {
+		.sp {
+			width: 190px;
+		}
+	}
+	@media only screen and (max-width: 420px) {
+		.sp {
+			width: 145px;
+		}
+	}
+	@media only screen and (max-width: 380px) {
+		.sp {
+			width: 300px;
+		}
+	}
+	@media only screen and (max-width: 330px) {
+		.sp {
+			width: 260px;
+		}
+	}
+	@media only screen and (max-width: 290px) {
+		.sp {
+			width: 210px;
+		}
+	}
+}
+
+
